@@ -15,14 +15,13 @@ RegisterNetEvent('JayDRP:giveRichPresence')
 AddEventHandler('JayDRP:giveRichPresence', function(user_id)
 	if user_id ~= nil then 
 		SetDiscordAppId(1038811726231117894) --Add your own Discord Application ID. https://support-dev.discord.com/hc/en-us/articles/360028717192-Where-can-I-find-my-Application-Team-Server-ID-
-		SetDiscordRichPresenceAsset('Slum City Roleplay') --Server Name.
-		--SetDiscordRichPresenceAssetText("Slum City Roleplay") --This native sets the hover text of the image asset for the discord rich presence implementation.
-		SetRichPresence("[ID: "..user_id.."] | "..#GetActivePlayers().. "/64") --Would advise only editing the total players. Eg. 64
-    SetDiscordRichPresenceAssetSmall("https://i.imgur.com/nObvwCr.png") --Picture that is shown the DRP
-    --SetDiscordRichPresenceAssetSmallText("Slum City Roleplay")
-		SetDiscordRichPresenceAction(0, "Join Server", "https://wraggster-xb8jrm.users.cfx.re")
-
-        --SetDiscordRichPresenceAction(1, "Placeholder Button2 ", "Link")
+		SetDiscordRichPresenceAsset('Server Name Here --- Change THIS << !!') --Server Name.
+		SetRichPresence("[ID: "..user_id.."] | "..#GetActivePlayers().. "/64") --Change the max number of players in your city Eg. 64
+    SetDiscordRichPresenceAssetSmall("Server LOGO Here --- Change THIS << !! NEEDS TO BE A PNG") --Picture that is shown the DRP
+		SetDiscordRichPresenceAction(0, "Join Server", "Server Link Here --- Change THIS << !!")
+  --SetDiscordRichPresenceAction(1, "Placeholder Button2 ", "Link")
+	--SetDiscordRichPresenceAssetText("Slum City Roleplay") --This native sets the hover text of the image asset for the discord rich presence implementation.
+  --SetDiscordRichPresenceAssetSmallText("")
 	end
 end)
 
