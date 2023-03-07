@@ -1,9 +1,9 @@
 STEPS😴
 
 
-a) Find qb-smallresources in your files
+a) Find qb-smallresources in your server files
 
-b) Inside of qb-smallresources, delete discord.lua out of the client and server folder 
+b) Inside of qb-smallresources, delete discord.lua out of both the client and server folder 
 
 c) Go in to qb-smallresources config.lua and remove Line 46 to 67
 ```
@@ -33,7 +33,7 @@ Config.Discord = {
 
 
 
-2a) Go into Jay-DRP and go into the folder named server. Grab the discord.lua out of there and put it in your qb-smallresources server folder. This is a replacement for what you removed earlier
+2a) Go into the folder named server inside Jay-DRP. Go ahead and grab the discord.lua out of there and put it in your qb-smallresources server folder. This is a replacement for what you removed earlier
 
 2b) Now go back and add the discord.lua from the 'client' folder in Jay-DRP and put it into your qb-smallresources client folder. This is a replacement also
 
