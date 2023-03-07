@@ -1,4 +1,6 @@
 STEPS😴
+
+
 a) Find qb-smallresources in your files
 
 b) Inside of qb-smallresources, delete discord.lua out of the client and server folder 
