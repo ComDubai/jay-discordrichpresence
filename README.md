@@ -1,5 +1,4 @@
-Made By Jay (SlumCity#0001)
-
+STEPS😴
 a) Find qb-smallresources in your files
 
 b) Inside of qb-smallresources, delete discord.lua out of the client and server folder 
@@ -41,3 +40,11 @@ Config.Discord = {
 TO DO
 -Make a config if I get enough requests to do so. I personally prefer just having a client and server side for this kind of thing but I don't mind making a config for it
 
+
+
+
+
+
+
+
+Made By Jay (SlumCity#0001)
